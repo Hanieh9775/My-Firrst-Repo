@@ -1,6 +1,6 @@
 # app.py
 
-from flask import Flask, render_template_
+from flask import Flask, render_template_string
 
 app = Flask(__name__)
 
@@ -15,7 +15,7 @@ def home():
     </head>
     <body>
         <h1>Hello, World!</h1>
-        <p>This is a simple web application built with Flask.</p>
+        <p>This is a simple web application built with Flask.
     </body>
     </html>
     """)
